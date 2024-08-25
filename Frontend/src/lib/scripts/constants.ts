@@ -1,4 +1,4 @@
-export const BASE_PATH = "http://seven-labs.com:8888"
+export const BASE_PATH = "https://api.seven-labs.com"
 export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.ree6.de"
 
 export function get(path: string) {
